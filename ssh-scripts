@@ -1,3 +1,3 @@
 eval "$(ssh-agent -s)"
 
-ssh-add -t 100000 #sets the lifetime of the identity to 27.8 hours
+ssh-add -t 100000
