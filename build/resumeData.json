@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name": "Joe Shakely",
+    "occupation": "Software Engineer",
+    "description": ".",
+    "image": "profilepic.jpg",
+    "bio": "My professional experience consists of over 7 years’ in business and software development, relationship management, and portfolio and investment analysis. Skilled at educating clients and partners on matters of portfolio organization and optimization and managing new business opportunities. Excellent consultative approach with clients and stakeholders, with experience leading small teams in the implementation from start to finish of Yardi Systems’ Investment Management and Budgeting and Forecasting software solutions.",
+    "contactmessage": "Send me a quick message if you're interested in getting in touch.",
+    "email": "shakelyconsultingllc@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "3155 Frontera Way",
+      "city": "San Francisco",
+      "Burlingame": "Burlingame",
+      "state": "CA",
+      "zip": "94010"
+    },
+    "website": "https://shakely-consulting.github.io/",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/joe.shakely",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/josephshakely",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/joe_shakely",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/messidagod",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "California Polytechnic State University, San Luis Obispo",
+        "degree": "Bachelor of Science, Business Administration",
+        "concentration": "Accounting & Finance",
+        "graduated": "December 2012"
+      }
+    ],
+    "work": [
+      {
+        "company": "Shakely Consulting, LLC",
+        "title": "Owner",
+        "years": "January 2020 - Present",
+        "bullets": [
+          "Consult clients using Yardi’s Investment Management and Advanced Budgeting and Forecasting software’s by implementing best practices learned during my 7 years of experience in the field.",
+          "Create custom financial, forecast, and investor return reports, amount others, for client’s using Yardi Systems’ web-based property management accounting software."
+        ]
+      },
+      {
+        "company": "Hott Solutions Corp.",
+        "title": "Software Engineer",
+        "years": "May 2018 - January 2020",
+        "bullets": [
+          "Create custom financial reports for Residential and Commercial property owners and managers using Microsoft’s SQL Server Reporting Services and Yardi Systems’ spreadsheet reporting technology, cutting down report preparation times from weeks to one press of the submit button.",
+          "Implement Yardi Systems’ Investment Management fund accounting software for asset management firms with complex investment hierarchies, cash-flows, and reporting needs, from start to finish of the software implementation lifecycle.",
+          "Implement Yardi Systems’ Advanced Budgeting and Forecasting software solution for Commercial and Residential real estate firms creating multi-year forecasts using market lease assumptions, expense models, and in-place leases to forecast NOI as well as below-the line capital adjustments as per client requirements.",
+          "Developed an API to migrate approximately 150,000 invoice images and documents from one database (Entrata) to another (Yardi) using SSMS Profiler to extract the necessary table schemas from Entrata and mapping the two data models to one another, then creating temporary tables and stored procedures using dynamic SQL to create insert statements as SQL scripts which fulfilled the necessary Yardi schema requirements to access the images and documents from Yardi’s UI.",
+          "Developed API’s for Amazon.com (specifically for Amazon Lockers in multifamily apartment buildings) as well as San Francisco based multifamily data analytics company Rentlytics to automatically and periodically extract resident data using SQL stored procedures along with Yardi’s Service Manager module to export real-time tenant data to each respective client."
+        ]
+      },
+      {
+        "company": "Yardi Systems Inc.",
+        "title": "Technical Consultant",
+        "years": "January 2013 - May 2018",
+        "bullets": [
+          "Consulted large Commercial and Residential clients using Yardi’s Advanced Budgeting and Forecasting software as well as the Investment Management product for clients moving from Excel as well as other property management software’s like MRI and RealPage.",
+          "Created custom SQL solutions utilizing stored procedures, user-defined functions, and dynamic SQL for Investment Management and Advanced Budgeting clients when the standard software did not fit their business needs.",
+          "Served as Technical Consultant on JP Morgan Asset Management’s migration from MRI to Yardi Systems.",
+          "Supported clients using Yardi’s Investment Management module such as the Canadian Pension Plan Investment Board, Citco Fund Services, and MetLife."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "T-SQL",
+        "level": "100%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Javascript",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "SQL Server",
+        "level": "100%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Casillas Law Group",
+        "category": "Website for a friends law group.",
+        "image": "casillaslawgroup2.png",
+        "url": "https://casillas-law.github.io/"
+      },
+      {
+        "title": "Casillas Law Group",
+        "category": "Website for a friends law group.",
+        "image": "casillaslawgroup.png",
+        "url": "https://casillaslawgroup.github.io/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      },
+      {
+        "text": ""
+      }
+    ]
+  }
+}
