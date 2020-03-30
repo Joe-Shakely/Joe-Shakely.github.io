@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "gh-pages": "^2.2.0",
     "jquery": "^3.2.1",
+    "nodemon": "^2.0.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
