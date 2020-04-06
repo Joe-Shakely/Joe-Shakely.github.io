@@ -102,25 +102,21 @@
         "level": "55%"
       },
       {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
         "name": "CSS",
         "level": "90%"
       },
       {
         "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
+        "level": "90%"
       },
       {
         "name": "SQL Server",
         "level": "100%"
-      }
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      }      
     ]
   },
   "portfolio": {
