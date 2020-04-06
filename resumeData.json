@@ -122,17 +122,23 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Casillas Law Group",
+        "title": "Casillas Law Group 1",
         "category": "Website for a friends law group.",
         "image": "casillaslawgroup2.png",
         "url": "https://casillas-law.github.io/"
       },
       {
-        "title": "Casillas Law Group",
+        "title": "Casillas Law Group 2",
         "category": "Website for a friends law group.",
         "image": "casillaslawgroup.png",
         "url": "https://casillaslawgroup.github.io/"
-      }
+      },
+      {
+        "title": "Shakely Consulting",
+        "category": "My consulting company website (still in progress).",
+        "image": "shakely-consulting.gif",
+        "url": "https://shakely-consulting.github.io/"
+      }      
     ]
   },
   "testimonials": {
