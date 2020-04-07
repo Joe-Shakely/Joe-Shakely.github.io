@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import QReport from "../pdf/Shakely Consulting Properties Q3 Demo Report.pdf";
+import QImage from "../pdf/QReport.png";
 
 class Portfolio extends Component {
   render() {
@@ -25,19 +27,23 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-
-      <div className="row">
-
-         <div className="twelve columns collapsed">
-
-            <h1>Check out a couple websites I've created:</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1><strong>Check out some of my projects</strong></h1>
+            <div
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
+            >
+              {projects}
             </div>
+            <p>
+              <a href={QReport} className="button" target="_blank">
+                <img src={QImage} alt="QReport Text" className="fa fa-download"></img>Custom Quarterly Report
+              </a>
+            </p>
           </div>
-      </div>
-   </section>
+        </div>
+      </section>
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import pdf from "../pdf/resume.pdf"
+import pdf from "../pdf/resume.pdf";
 
 class About extends Component {
   render() {
@@ -55,7 +55,6 @@ class About extends Component {
           </div>
         </div>
       </section>
-
     );
   }
 }
