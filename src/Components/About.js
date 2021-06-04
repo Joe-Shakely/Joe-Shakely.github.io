@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import pdf from "../pdf/resume.pdf"
+import pdf from "../pdf/resume.pdf";
 
 class About extends Component {
   render() {
@@ -46,19 +46,25 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={pdf} className="button" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={pdf}
+                    className="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>
               </div>
             </div>
-            <p className="scrolldown">
+          </div>
+        </div>
+        <footer>
+        <p className="scrolldown">
                <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
-            </p>            
-          </div>         
-        </div>        
+            </p>          
+        </footer>
       </section>
-
     );
   }
 }
