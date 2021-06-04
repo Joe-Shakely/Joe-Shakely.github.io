@@ -40,6 +40,7 @@ class Contact extends Component {
                     size="35"
                     id="contactName"
                     name="contactName"
+                    autoComplete="given-name"
                     onChange={this.handleChange}
                   />
                 </div>
@@ -54,12 +55,14 @@ class Contact extends Component {
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
+                    autoComplete="email"
                     onChange={this.handleChange}
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="contactPhone">Subject</label>
+                  <label htmlFor="contactPhone">Phone Number<span className="required">*</span>
+                  </label>
                   <input
                     type="tel"
                     placeholder="Your Phone Number *"
@@ -67,6 +70,7 @@ class Contact extends Component {
                     size="35"
                     id="contactPhone"
                     name="contactPhone"
+                    autoComplete="tel-national"
                     onChange={this.handleChange}
                   />
                 </div>
@@ -82,6 +86,7 @@ class Contact extends Component {
                     id="contactMessage"
                     required="required"
                     name="contactMessage"
+                    autoComplete="none"
                   ></textarea>
                 </div>
 
