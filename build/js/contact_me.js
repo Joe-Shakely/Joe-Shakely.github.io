@@ -26,7 +26,7 @@ $(function() {
           "Content-Type": "application/x-www-form-urlencoded"
         },
         url:
-          "https://script.google.com/macros/s/AKfycbwlvoFcIKlwKaDllprrFm1hmJdxy6Wz_joDzlh2Lw_q_ai4Dms/exec",
+          "https://script.google.com/macros/s/AKfycbz9ULBF6AAZFXxup6X6KkhWF9QM87IL-baZNDIoUyZB5T9g1VnO3dka_kTjCS2nq6bt/exec",
         type: "POST",
         data: {
           name: name,
@@ -91,4 +91,3 @@ $(function() {
 function closeAlert() {
   $("#message-success").html("");
 }
-
