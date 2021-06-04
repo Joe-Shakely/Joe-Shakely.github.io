@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import pdf from "../pdf/resume.pdf"
 
-class About extends Component {
+class Dunk extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -15,7 +14,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="dunk">
         <div className="row">
           <div className="three columns">
             <img
@@ -46,21 +45,20 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={pdf} className="button" target="_blank" rel="noopener noreferrer">
+                  <a href={pdf} className="button" target="_blank">
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>
               </div>
             </div>
-            <p className="scrolldown">
-               <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
-            </p>            
-          </div>         
-        </div>        
+          </div>
+        </div>
       </section>
-
     );
   }
 }
 
-export default About;
+export default Dunk;
+/*
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/IRY35xYab0s?start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       */
