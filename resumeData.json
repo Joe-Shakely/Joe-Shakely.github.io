@@ -34,7 +34,7 @@
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com",
+        "url": "http://instagram.com/joe_shakely",
         "className": "fa fa-instagram"
       },
       {
@@ -60,12 +60,8 @@
         "title": "Owner",
         "years": "January 2020 - Present",
         "bullets": [
-          "Manage the entire software implementation life-cycle for clients using Yardi Systems’ Voyager, by implementing best practices, adhering to strict business requirements, creating end-user documentation, and conducting UAT and end-user training.",
-          "Create custom balance sheet, cash-flow, income statement, forecast, and investor return reports (among others), using YSR, SSRS, and scripted SQL reports for Yardi clients, cutting down report preparation times from sometimes weeks or months to the press of a submit button.",
-          "Create and setup reports packages using report scheduler and YSR tasks using Service Manager to automate reporting process.",
-          "Setup and configure system user security including creating and maintaining user roles, permissions, system settings, and approval workflows.",
-          "Diagnose, analyze and troubleshoot Yardi software issues related to Checkscan, PayScan, ACH, and G/L accounts.",
-          "Onboard new properties, manage property conversions including ACH setup and HAP."
+          "Consult clients using Yardi’s Investment Management and Advanced Budgeting and Forecasting software’s by implementing best practices learned during my 7 years of experience in the field.",
+          "Create custom financial, forecast, and investor return reports, amount others, for client’s using Yardi Systems’ web-based property management accounting software."
         ]
       },
       {
@@ -73,11 +69,11 @@
         "title": "Software Engineer",
         "years": "May 2018 - January 2020",
         "bullets": [
+          "Create custom financial reports for Residential and Commercial property owners and managers using Microsoft’s SQL Server Reporting Services and Yardi Systems’ spreadsheet reporting technology, cutting down report preparation times from weeks to one press of the submit button.",
           "Implement Yardi Systems’ Investment Management fund accounting software for asset management firms with complex investment hierarchies, cash-flows, and reporting needs, from start to finish of the software implementation lifecycle.",
-          "Implement Yardi Systems’ Advanced Budgeting and Forecasting software solution for Commercial and Residential real estate firms creating multi-year forecasts using market lease assumptions, expense models, and in-place leases to forecast NOI, as well as below-the line capital adjustments as per client requirements.",
-          "Developed an API which was used for multiple clients to migrate approximately 150,000 invoices, job contracts, purchase orders, and journal entry documents from an Entrata environment to Yardi, making the documents available to end-users from Yardi’s user interface.",
-          "Developed API’s for Amazon.com, as well as San Francisco based multifamily data analytics company Rentlytics to automatically and periodically extract resident data using SQL stored procedures along with Yardi’s Service Manager module to export real-time tenant data to each respective client.",
-          "Troubleshoot and resolve data issues related to bank reconciliations, deposits, invoices, checks and payables."
+          "Implement Yardi Systems’ Advanced Budgeting and Forecasting software solution for Commercial and Residential real estate firms creating multi-year forecasts using market lease assumptions, expense models, and in-place leases to forecast NOI as well as below-the line capital adjustments as per client requirements.",
+          "Developed an API to migrate approximately 150,000 invoice images and documents from one database (Entrata) to another (Yardi) using SSMS Profiler to extract the necessary table schemas from Entrata and mapping the two data models to one another, then creating temporary tables and stored procedures using dynamic SQL to create insert statements as SQL scripts which fulfilled the necessary Yardi schema requirements to access the images and documents from Yardi’s UI.",
+          "Developed API’s for Amazon.com (specifically for Amazon Lockers in multifamily apartment buildings) as well as San Francisco based multifamily data analytics company Rentlytics to automatically and periodically extract resident data using SQL stored procedures along with Yardi’s Service Manager module to export real-time tenant data to each respective client."
         ]
       },
       {
@@ -106,42 +102,40 @@
         "level": "55%"
       },
       {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
         "name": "CSS",
         "level": "90%"
       },
       {
         "name": "HTML5",
-        "level": "90%"
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
       },
       {
         "name": "SQL Server",
         "level": "100%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Casillas Law Group 1",
+        "title": "Casillas Law Group",
         "category": "Website for a friends law group.",
         "image": "casillaslawgroup2.png",
         "url": "https://casillas-law.github.io/"
       },
       {
-        "title": "Casillas Law Group 2",
+        "title": "Casillas Law Group v2",
         "category": "Website for a friends law group.",
         "image": "casillaslawgroup.png",
         "url": "https://casillaslawgroup.github.io/"
-      },
-      {
-        "title": "Shakely Consulting",
-        "category": "My consulting company website (still in progress).",
-        "image": "shakely-consulting.gif",
-        "url": "https://shakely-consulting.github.io/"
       }
     ]
   },
