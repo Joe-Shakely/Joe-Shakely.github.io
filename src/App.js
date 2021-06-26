@@ -11,7 +11,7 @@ import Portfolio from './Components/Portfolio';
 
 class App extends Component {
 
-  constructor(props) {
+  constructor(props: {} | Readonly<{}>) {
     super(props);
     this.state = {
       foo: 'bar',
@@ -28,7 +28,7 @@ class App extends Component {
       url: '/data.json',
       dataType: 'json',
       cache: false,
-      success: function (data) {
+      success: function (data: any) {
         this.setState({ datas: data });
       }.bind(this),
       error: function (xhr, status, err) {
