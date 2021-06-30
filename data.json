@@ -130,7 +130,13 @@
         "category": "Website for a friends law group.",
         "image": "casillaslawgroup2.png",
         "url": "https://casillas-law.github.io/"
-      }
+      },
+      {
+        "title": "Shakely Consulting, LLC.",
+        "category": "Personal Business website",
+        "image": "shakelyconsulting.jpg",
+        "url": "https://shakely-consulting.github.io/"
+      }      
     ]
   },
   "testimonials": {
