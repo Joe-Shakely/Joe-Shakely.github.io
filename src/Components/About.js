@@ -58,11 +58,26 @@ class About extends Component {
               </div>
             </div>
           </div>
+          <div className="twelve columns main-col">
+            <div className="row">
+              <iframe
+                width="900"
+                height="500"
+                src="https://www.youtube.com/embed/IRY35xYab0s?start=26"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
         <footer>
-        <p className="scrolldown">
-               <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
-            </p>          
+          <p className="scrolldown">
+            <a className="smoothscroll" href="#resume">
+              <i className="icon-down-circle"></i>
+            </a>
+          </p>
         </footer>
       </section>
     );
